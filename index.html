@@ -7,10 +7,22 @@
     <title>Angular Application</title>
 </head>
 <body>
+  <h1>This is a test</h1>
+  <div ng-app="app">
+    <div ng-controller="MainController">
+    
+      <h2>{{ contact.name }}</h2>
+      <h4>{{ contact.phone }}</h4>
+     
+      <div>
+        Copyright {{ year }}.
+      </div>
+    </div>
+  </div>
 
-    <script src="js/angular.js"></script>
-    <script src="js/app/app.js"></script>
-    <script src="js/app/controllers/MainController.js"></script>
+  <script src="js/angular.js"></script>
+  <script src="js/app/app.js"></script>
+  <script src="js/app/controllers/MainController.js"></script>
 
 </body>
 </html>
